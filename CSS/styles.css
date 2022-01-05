@@ -1,0 +1,189 @@
+:root{
+    --main-title-color: #ffffff;
+    --second-title-color:#212121;
+    --first-text-color:#757575;
+    --buton-text-color:#FFFFFF;
+    --header-text-color:#212121;
+    --contact-color:#757575;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+}
+body{
+    font-family: roboto,sans-serif;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.pointer {
+    cursor: pointer;
+/*--------------Header-----------------*/
+.header-logo{
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.header-studio{
+    color: var(--header-text-color);
+}
+.header-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-text-color);
+}
+.header-link:hover,
+.header-link:focus{
+    color:var(--accent-color)
+}
+.header-contact-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--contact-color)    
+}
+.header-contact-link:hover,
+.header-contact-link:focus{
+    color:var(--accent-color)
+}
+/*--------------hero--------------*/
+.main-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--main-title-color);
+}
+.main-buton{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--buton-text-color);
+}
+/*------------pecul--------------*/
+.pecul-after-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-title-color);
+}
+.pecul-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+/*--------------What are we doing--------*/
+.price-title{
+font-weight:700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+/*--------------Command-----------*/
+.comand-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--second-title-color);
+}
+.comand-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-title-color);
+}
+.comand-item{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+/*---------porfolio------*/
+.filter-buton:hover,
+.filter-buton:focus {
+  color: var(--buton-text-color);
+}
+
+.filter-buton{
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(second-title-color);
+}
+.project-name{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--header-text-color);
+}
+.project-item{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--first-text-color);
+}
+
+/*---------footer------*/
+.footer-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    }
+    .footer-studio{
+        color: var(--header-text-color);
+    }
+.addres-map-city{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+.addres-map-city:hover,
+.addres-map-city:focus{
+    color: var(--accent-color);
+}
+.addres-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+}
+.addres-link:hover,
+.addres-link:focus{
+    color: var(--accent-color);
+}
