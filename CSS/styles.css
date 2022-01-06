@@ -19,7 +19,11 @@ body{
 }
 .pointer {
     cursor: pointer;
+}
 /*--------------Header-----------------*/
+.header{
+    border-bottom: 1px solid #ececec;
+}
 .header-logo{
 font-family: Raleway;
 font-weight: 700;
