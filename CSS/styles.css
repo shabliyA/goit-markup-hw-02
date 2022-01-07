@@ -59,6 +59,9 @@ color: var(--header-text-color);
     color:var(--accent-color)
 }
 /*--------------hero--------------*/
+.hero{
+    background: #2F303A;
+}
 .hero-title{
 font-weight: 900;
 font-size: 44px;
@@ -180,6 +183,7 @@ color: var(--first-text-color);
         color: var(--main-title-color);
     }
 .addres-map-city{
+    font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -191,6 +195,7 @@ color: var(--main-title-color);
     color: var(--accent-color);
 }
 .addres-link{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
