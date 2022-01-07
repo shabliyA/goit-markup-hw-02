@@ -9,7 +9,8 @@
     --accent-color:#2196F3;
 }
 body{
-    font-family: roboto,sans-serif;
+    font-family: "Roboto", sans-serif;
+  color: var(--second-title-color);
 }
 .list{
     list-style: none;
@@ -58,7 +59,7 @@ color: var(--header-text-color);
     color:var(--accent-color)
 }
 /*--------------hero--------------*/
-.main-title{
+.hero-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -67,7 +68,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color:var(--main-title-color);
 }
-.main-buton{
+.hero-buton{
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -75,7 +76,13 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+background: var(--accent-color);
 color: var(--buton-text-color);
+}
+.hero-buton:hover,
+.hero-buton:focus {
+    color: var(--buton-text-color);
+    color: var(--first-button-color);
 }
 /*------------pecul--------------*/
 .pecul-after-title{
@@ -131,11 +138,11 @@ color: var(--first-text-color);
 .filter-buton:hover,
 .filter-buton:focus {
   color: var(--buton-text-color);
+  background: var(--accent-color);
 }
 
 .filter-buton{
   cursor: pointer;
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -158,6 +165,9 @@ color: var(--first-text-color);
 }
 
 /*---------footer------*/
+.footer{
+    background-color: #2f303a;
+}
 .footer-logo{
     font-family: Raleway;
     font-weight: 700;
@@ -167,7 +177,7 @@ color: var(--first-text-color);
     color: var(--accent-color);
     }
     .footer-studio{
-        color: var(--header-text-color);
+        color: var(--main-title-color);
     }
 .addres-map-city{
 font-weight: 400;
@@ -190,4 +200,7 @@ color: var(--main-title-color);
 .addres-link:hover,
 .addres-link:focus{
     color: var(--accent-color);
+}
+.transparency {
+    color: rgba(255, 255, 255, 0.6);
 }

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel= "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styles.css">
@@ -29,12 +29,12 @@
     </header>
 <main>
     <!--Шапка-->
-    <section class="main">
-        <h1 class="main-title">Эффективные решения <br> для вашего бизнеса</h1>
-        <button class="main-buton pointer">Заказать услугу</button>
+    <section class="hero">
+        <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+        <button class="hero-buton pointer">Заказать услугу</button>
     </section>
     <!--особенности-->
-    <section class="pecul">
+    <section class="section">
         <!--данный заголовок не будет отображен-->
         <h2></h2>
         <ul class="pecul-list list">
@@ -57,40 +57,40 @@
         </ul>
     </section>
     <!--Чем мы занимаемся-->
-    <section>
+    <section class="price">
         <h2 class="price-title">Чем мы занимаемся</h2>
-        <ul>
-            <li>
+        <ul class="price-list list">
+            <li class="price-item">
                 <img src="./images/box1.jpg" alt="пример 1" width="370">
             </li>
-            <li>
+            <li class="price-item">
                 <img src="./images/box2.jpg" alt="пример 2" width="370">
             </li>
-            <li>
+            <li class="price-item">
                 <img src="./images/box3.jpg" alt="пример 3" width="370">
             </li>
         </ul>
     </section>
     <!--Наша команда-->
-    <section>
+    <section class="section comand-section">
         <h2 class="comand-title">Наша команда</h2>
-        <ul>
-            <li>
+        <ul class="comand-list list">
+            <li class="comand-item">
                 <img src="./images/igor.jpg" alt="сотрудник 1" width="270">
                 <h3 class="comand-name">Игорь Демьяненко</h3>
                 <p class="comand-item">Product Designer</p>
             </li>
-            <li>
+            <li class="comand-item">
                 <img src="./images/olga.jpg" alt="сотрудник 2" width="270">
                 <h3 class="comand-name">Ольга Репина</h3>
                 <p class="comand-item">Frontend Developer</p>
             </li>
-            <li>
+            <li class="comand-item">
                 <img src="./images/nikolai.jpg" alt="сотрудник 3" width="270">
                 <h3 class="comand-name">Николай Тарасов</h3>
                 <p class="comand-item">Marketing</p>
             </li>
-            <li>
+            <li class="comand-item">
                 <img src="./images/misha.jpg" alt="сотрудник 4" width="270">
                 <h3 class="comand-name">Михаил Ермаков</h3>
                 <p class="comand-item">UI Designer</p>
@@ -100,7 +100,9 @@
 </main>
 <!--Футер-->
 <footer class="footer">
-    <a class="footer-logo link" href="./index.html">Web<span class="footer-studio">Studio</span></a>
+    <a class="footer-logo link" href="./index.html">Web
+        <span class="footer-studio">Studio</span>
+    </a>
    <address class="addres">
     <ul class="addres-list list">
         <li class="addres-map"><a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.426514,30.5376187,18z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" class="addres-map-city link">г. Киев, пр-т Леси Украинки, 26</a></li>
